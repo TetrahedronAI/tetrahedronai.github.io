@@ -11,7 +11,7 @@ body {
 
 .nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
@@ -27,23 +27,52 @@ body {
 }
 
 .nav-title {
-  font-weight: bold;
-}
+  padding-left: 3rem;
+  padding-right: 3rem;
 
-.nav-link {
+  font-weight: bold;
+  font-size: large;
+
   text-decoration: none;
   color: black;
 }
 
+.nav-link {
+  width: 10rem;
+
+  height: 4.1rem;
+  line-height: 4.1rem;
+
+  text-align: center;
+  text-decoration: none;
+
+  box-shadow: none;
+
+  color: black;
+  background-color: inherit;
+
+  transition: background-color 200ms ease-in, color 200ms ease-in, box-shadow 200ms ease-in;
+}
+
+.nav-link:hover {
+  color: #fff;
+  background-color: rgb(41, 41, 41);
+  box-shadow: 0.3rem 0.3rem 0.3rem -0.3rem #000 inset;
+}
+
 .landing-page {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   background: linear-gradient(90deg, orange, red);
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
+  height: 100vh + 2rem;
 }
 
 .landing-title {
   padding-left: 2.6rem;
-  padding-top: 20rem;
+  padding-top: 12rem;
 
   margin: 0.1rem;
 
@@ -57,4 +86,9 @@ body {
   color: white;
   margin: 0;
   padding-left: 3rem;
+}
+
+.under-construction {
+  padding: 13rem;
+  text-align: center;
 }
