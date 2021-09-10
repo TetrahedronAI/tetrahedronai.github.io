@@ -13,8 +13,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 
   background-color: #fff;
 
@@ -27,6 +26,13 @@ body {
 }
 
 .nav-title {
+  background-color: white;
+  margin-right: 1rem;
+  position: absolute;
+  left: 0%;
+  height: 4.1rem;
+  line-height: 4.1rem;
+
   padding-left: 3rem;
   padding-right: 3rem;
 
@@ -35,6 +41,14 @@ body {
 
   text-decoration: none;
   color: black;
+  align-self: auto;
+
+  box-shadow: none;
+  transition: box-shadow 200ms ease-in;
+}
+
+.nav-title:hover {
+  box-shadow: 1rem 0 1rem -1rem #ccc;
 }
 
 .nav-link {
@@ -45,13 +59,15 @@ body {
 
   text-align: center;
   text-decoration: none;
+  white-space: nowrap;
 
   box-shadow: none;
 
   color: black;
   background-color: inherit;
 
-  transition: background-color 200ms ease-in, color 200ms ease-in, box-shadow 200ms ease-in;
+  transition: background-color 200ms ease-in, color 200ms ease-in,
+    box-shadow 200ms ease-in;
 }
 
 .nav-link:hover {
@@ -64,13 +80,15 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
+
   background: linear-gradient(90deg, orange, red);
-  width: 100%;
+  width: 100vw;
   min-height: 100vh;
   height: 100vh + 2rem;
 }
 
 .landing-title {
+  max-width: 70%;
   padding-left: 2.6rem;
   padding-top: 12rem;
 
@@ -83,6 +101,7 @@ body {
 }
 
 .landing-subtitle {
+  max-width: 70%;
   color: white;
   margin: 0;
   padding-left: 3rem;
