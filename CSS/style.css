@@ -7,6 +7,7 @@ body {
 
 * {
   font-family: "IBM Plex Sans Arabic", sans-serif;
+  overflow-x: hidden;
 }
 
 .nav {
@@ -30,8 +31,11 @@ body {
   margin-right: 1rem;
   position: absolute;
   left: 0%;
+
   height: 4.1rem;
   line-height: 4.1rem;
+
+  width: 5.4rem;
 
   padding-left: 3rem;
   padding-right: 3rem;
@@ -57,6 +61,8 @@ body {
   height: 4.1rem;
   line-height: 4.1rem;
 
+  font-size: normal;
+
   text-align: center;
   text-decoration: none;
   white-space: nowrap;
@@ -67,13 +73,14 @@ body {
   background-color: inherit;
 
   transition: background-color 200ms ease-in, color 200ms ease-in,
-    box-shadow 200ms ease-in;
+    box-shadow 200ms ease-in, font-size 200ms ease-in;
 }
 
 .nav-link:hover {
   color: #fff;
   background-color: rgb(41, 41, 41);
   box-shadow: 0.3rem 0.3rem 0.3rem -0.3rem #000 inset;
+  font-size: 1.2rem;
 }
 
 .landing-page {

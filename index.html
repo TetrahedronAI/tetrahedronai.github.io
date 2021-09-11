@@ -9,10 +9,13 @@
 
     <meta property="og:url" content="https://neuron-ai.github.io">
     <meta property="og:type" content="website">
-    <meta property="og:description" content="Neuron AI - we create, invent and innovate for the future.">
+    <meta property="og:title" content="Neuron AI">
+    <meta property="og:description" content="We create, invent and innovate for the future.">
     <meta property="og:locale" content="en_GB">
     <meta property="og:image"
         content="https://raw.githubusercontent.com/Neuron-AI/Neuron-AI.github.io/main/Images/icon.svg">
+
+    <meta name="twitter:card" content="summary">
 
     <meta name="twitter:card" content="summary">
 
@@ -32,21 +35,7 @@
         <h1 class="landing-title">Neuron AI</h1>
         <h2 class="landing-subtitle">Creating, inventing, innovating.</h2>
     </div>
-    <script>
-        function showNotificaton(message) {
-            const notification = new Notification("Neuron AI", {
-                body: message,
-                icon: "https://raw.githubusercontent.com/Neuron-AI/Neuron-AI.github.io/main/Images/icon.svg",
-            });
-        }
-        if (Notification.permission !== "denied") {
-            Notification.requestPermission().then(permission => {
-                if (permission === "granted") {
-                    showNotificaton("Welcome to the community. We'll notify you of new research, projects and information whilst you are here!")
-                }
-            });
-        }
-    </script>
+    <script src="./JavaScript/index.js"></script>
 </body>
 
 </html>
