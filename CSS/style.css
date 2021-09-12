@@ -73,7 +73,7 @@ body {
   background-color: inherit;
 
   transition: background-color 200ms ease-in, color 200ms ease-in,
-    box-shadow 200ms ease-in, font-size 200ms ease-in;
+    box-shadow 200ms ease-in, font-size 150ms ease-in;
 }
 
 .nav-link:hover {
@@ -93,11 +93,10 @@ body {
   background: linear-gradient(90deg, orange, red);
   width: 100vw;
   min-height: 100vh;
-
 }
 
 .landing-title {
-  max-width: 70%;
+  width: 70%;
   padding-left: 2.6rem;
   padding-top: 12rem;
 
@@ -114,58 +113,10 @@ body {
   color: white;
   margin: 0;
   padding-left: 3rem;
-
-  animation: typing-appear 3.5s;
 }
+
 
 .under-construction {
   padding: 13rem;
   text-align: center;
-}
-
-#project-cards {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-
-  margin: 2vw;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
-}
-
-.card {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-
-  padding: 2rem;
-  border-radius: 1rem;
-
-  background-color: #fff;
-  box-shadow: 1px 10px 1rem #ddd;
-
-  justify-content: center;
-  align-items: center;
-
-  width: 20vw;
-  transition: width 200ms ease-in-out, height 200ms ease-in-out;
-}
-
-.card, .card h3 {
-  overflow-y: hidden;
-  text-align: center;
-}
-
-#sand-card .card-image {
-  transform: translate(-3vh);
-}
-
-#easyneuron-card .card-image {
-  width: 15vw;
-}
-
-#comingsoon-card .card-image {
-  align-self: center;
-  padding: 5vh;
-  padding-top: 13vh;
 }
