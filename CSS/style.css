@@ -73,7 +73,7 @@ body {
   background-color: inherit;
 
   transition: background-color 200ms ease-in, color 200ms ease-in,
-    box-shadow 200ms ease-in, font-size 200ms ease-in;
+    box-shadow 200ms ease-in, font-size 150ms ease-in;
 }
 
 .nav-link:hover {
@@ -93,7 +93,6 @@ body {
   background: rgb(41, 41, 41);
   width: 100vw;
   min-height: 100vh;
-
 }
 
 .landing-title {
@@ -104,6 +103,7 @@ body {
   -webkit-background-clip: text;
 
   max-width: 70%;
+
   padding-left: 2.6rem;
   padding-top: 12rem;
 
@@ -118,7 +118,6 @@ body {
   color: white;
   margin: 0;
   padding-left: 3rem;
-
   color: transparent;
   background: linear-gradient(90deg, orange, red);
 
@@ -127,6 +126,7 @@ body {
 
   animation: typing-appear 3.5s;
 }
+
 
 .under-construction {
   padding: 13rem;
