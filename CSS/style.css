@@ -18,7 +18,7 @@ body {
 
   background-color: #fff;
 
-  box-shadow: 0 0 2rem lightgray;
+  box-shadow: 0 0 2rem rgba(51, 51, 51, 0.849);
 
   position: fixed;
   left: 0;
@@ -78,7 +78,7 @@ body {
 
 .nav-link:hover {
   color: #fff;
-  background-color: rgb(41, 41, 41);
+  background-color: #292929;
   box-shadow: 0.3rem 0.3rem 0.3rem -0.3rem #000 inset;
   font-size: 1.2rem;
 }
@@ -90,13 +90,19 @@ body {
 
   box-shadow: 0 0 1rem #ddd;
 
-  background: linear-gradient(90deg, orange, red);
+  background: rgb(41, 41, 41);
   width: 100vw;
   min-height: 100vh;
 
 }
 
 .landing-title {
+  color: transparent;
+  background: linear-gradient(90deg, orange, red);
+
+  background-clip: text;
+  -webkit-background-clip: text;
+
   max-width: 70%;
   padding-left: 2.6rem;
   padding-top: 12rem;
@@ -105,8 +111,6 @@ body {
 
   font-weight: bold;
   font-size: 5rem;
-
-  color: white;
 }
 
 .landing-subtitle {
@@ -114,6 +118,12 @@ body {
   color: white;
   margin: 0;
   padding-left: 3rem;
+
+  color: transparent;
+  background: linear-gradient(90deg, orange, red);
+
+  background-clip: text;
+  -webkit-background-clip: text;
 
   animation: typing-appear 3.5s;
 }
@@ -123,49 +133,83 @@ body {
   text-align: center;
 }
 
-#project-cards {
+.project-banner {
+  height: 100vh;
+  margin: 0px;
+  
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
-  justify-content: center;
-
-  margin: 2vw;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
-}
-
-.card {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-
-  padding: 2rem;
-  border-radius: 1rem;
-
-  background-color: #fff;
-  box-shadow: 1px 10px 1rem #ddd;
+  flex-wrap: wrap;
 
   justify-content: center;
   align-items: center;
-
-  width: 20vw;
-  transition: width 200ms ease-in-out, height 200ms ease-in-out;
 }
 
-.card, .card h3 {
-  overflow-y: hidden;
+.project-banner#sand {
+  color: white;
+  background-color: #292929;
+}
+
+.project-info {
+  width: 40vw;
+  font-size: 2vw;
+}
+
+.project-info#easyneuron { padding-left: 10vw; }
+.project-info#sand { padding-right: 10vw; }
+
+.project-info#easyneuron {
+  text-align: right;
+}
+
+.project-info#sand {
+  text-align: left;
+}
+
+.project-logo {
+  height: fit-content;
+  width: 30vw;
+}
+
+.footer {
+  color: white;
   text-align: center;
+
+  background-color: #292929;
+
+  padding: 1vw;
 }
 
-#sand-card .card-image {
-  transform: translate(-3vh);
+.learn-more {
+  padding: 0.5vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  margin: 2vw;
+  font-size: 2vw;
+
+  border-width: 0;
+  border-radius: 1vw;
+
+  transition: 100ms;
 }
 
-#easyneuron-card .card-image {
-  width: 15vw;
+.learn-more#easyneuron {background-color: #292929; color: white;}
+.learn-more#sand {background-color: white; color: black;}
+
+.learn-more#sand:hover{
+  background-color: transparent;
+  color: rgb(255, 209, 6);
+
+  border-color: rgb(255, 209, 6);
+  margin: 1.9vw;
+  border-width: 0.1vh;
 }
 
-#comingsoon-card .card-image {
-  align-self: center;
-  padding: 5vh;
-  padding-top: 13vh;
+.learn-more#easyneuron:hover {
+  background-color: transparent;
+  color: rgb(68, 0, 255);
+
+  border-color: rgb(68, 0, 255);
+  margin: 1.9vw;
+  border-width: 0.1vh;
 }
