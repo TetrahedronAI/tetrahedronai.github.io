@@ -10,6 +10,14 @@ body {
   overflow-x: hidden;
 }
 
+.paragraph {
+  font-size: 3vh;
+}
+
+.info {
+  padding: 10vh;
+}
+
 .nav {
   display: flex;
   justify-content: center;
@@ -95,7 +103,20 @@ body {
   min-height: 100vh;
 }
 
-.landing-title {
+.landing-page-small {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 0 1rem 0;
+
+  box-shadow: 0 0 3rem #ddd;
+
+  background: rgb(41, 41, 41);
+  width: 100vw;
+  height: 75vh;
+}
+
+.landing-title-red {
   color: transparent;
   background: linear-gradient(90deg, orange, red);
 
@@ -111,12 +132,41 @@ body {
   font-size: 5rem;
 }
 
-.landing-subtitle {
+.landing-subtitle-red {
   color: white;
   margin: 0;
   padding-left: 3rem;
   color: transparent;
   background: linear-gradient(90deg, orange, red);
+
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  animation: typing-appear 3.5s;
+}
+
+.landing-title-blue {
+  color: transparent;
+  background: linear-gradient(90deg, rgb(49, 193, 181), rgb(43, 118, 204));
+
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  padding-left: 2.6rem;
+  padding-top: 12rem;
+
+  margin: 0.1rem;
+
+  font-weight: bold;
+  font-size: 5rem;
+}
+
+.landing-subtitle-blue {
+  color: white;
+  margin: 0;
+  padding-left: 3rem;
+  color: transparent;
+  background: linear-gradient(90deg, rgb(49, 193, 181), rgb(43, 118, 204));
 
   background-clip: text;
   -webkit-background-clip: text;
