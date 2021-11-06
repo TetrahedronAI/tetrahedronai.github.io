@@ -120,8 +120,8 @@ body {
   color: transparent;
   background: linear-gradient(90deg, orange, red);
 
-  background-clip: text;
   -webkit-background-clip: text;
+  background-clip: text;
 
   padding-left: 2.6rem;
   padding-top: 12rem;
@@ -139,8 +139,8 @@ body {
   color: transparent;
   background: linear-gradient(90deg, orange, red);
 
-  background-clip: text;
   -webkit-background-clip: text;
+  background-clip: text;
 
   animation: typing-appear 3.5s;
 }
@@ -149,8 +149,8 @@ body {
   color: transparent;
   background: linear-gradient(90deg, rgb(49, 193, 181), rgb(43, 118, 204));
 
-  background-clip: text;
   -webkit-background-clip: text;
+  background-clip: text;
 
   padding-left: 2.6rem;
   padding-top: 12rem;
@@ -168,12 +168,11 @@ body {
   color: transparent;
   background: linear-gradient(90deg, rgb(49, 193, 181), rgb(43, 118, 204));
 
-  background-clip: text;
   -webkit-background-clip: text;
+  background-clip: text;
 
   animation: typing-appear 3.5s;
 }
-
 
 .under-construction {
   padding: 13rem;
@@ -183,7 +182,7 @@ body {
 .project-banner {
   height: 100vh;
   margin: 0px;
-  
+
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -202,8 +201,12 @@ body {
   font-size: 2vw;
 }
 
-.project-info#easyneuron { padding-left: 10vw; }
-.project-info#sand { padding-right: 10vw; }
+.project-info#easyneuron {
+  padding-left: 10vw;
+}
+.project-info#sand {
+  padding-right: 10vw;
+}
 
 .project-info#easyneuron {
   text-align: right;
@@ -214,8 +217,8 @@ body {
 }
 
 .project-logo {
-  height: fit-content;
   width: 30vw;
+  height: fit-content;
 }
 
 .footer {
@@ -240,10 +243,16 @@ body {
   transition: 300ms;
 }
 
-.learn-more#easyneuron {background-color: #292929; color: white;}
-.learn-more#sand {background-color: white; color: black;}
+.learn-more#easyneuron-button {
+  background-color: #292929;
+  color: white;
+}
+.learn-more#sand-button {
+  background-color: white;
+  color: black;
+}
 
-.learn-more#sand:hover{
+.learn-more#sand-button:hover {
   background-color: transparent;
   color: rgb(255, 209, 6);
 
@@ -252,7 +261,7 @@ body {
   border-width: 0.1vh;
 }
 
-.learn-more#easyneuron:hover {
+.learn-more#easyneuron-button:hover {
   background-color: transparent;
   color: rgb(68, 0, 255);
 
