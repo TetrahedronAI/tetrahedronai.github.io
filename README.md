@@ -1,2 +1,2 @@
-# Neuron-AI.github.io
+# [Neuron AI Website](https://neuron-ai.github.io)
 Our website.

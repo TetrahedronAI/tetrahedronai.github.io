@@ -1,0 +1,83 @@
+/* * Styling for the -projects on the home page. */
+
+.project-banner {
+    height: 100vh;
+    margin: 0px;
+  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .project-banner#sand {
+    color: white;
+    background-color: #292929;
+  }
+  
+  .project-info {
+    width: 40vw;
+    font-size: 2vw;
+  }
+  
+  .project-info#easyneuron {
+    padding-left: 10vw;
+  }
+  .project-info#sand {
+    padding-right: 10vw;
+  }
+  
+  .project-info#easyneuron {
+    text-align: right;
+  }
+  
+  .project-info#sand {
+    text-align: left;
+  }
+  
+  .project-logo {
+    width: 30vw;
+    height: fit-content;
+  }
+
+.learn-more {
+    padding: 0.5vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin: 2vw;
+    font-size: 2vw;
+  
+    border-width: 0;
+    border-radius: 1vw;
+  
+    transition: 300ms;
+  }
+  
+  .learn-more#easyneuron-button {
+    background-color: #292929;
+    color: white;
+  }
+  .learn-more#sand-button {
+    background-color: white;
+    color: black;
+  }
+  
+  .learn-more#sand-button:hover {
+    background-color: transparent;
+    color: rgb(255, 209, 6);
+  
+    border-color: rgb(255, 209, 6);
+    margin: 1.9vw;
+    border-width: 0.1vh;
+  }
+  
+  .learn-more#easyneuron-button:hover {
+    background-color: transparent;
+    color: rgb(68, 0, 255);
+  
+    border-color: rgb(68, 0, 255);
+    margin: 1.9vw;
+    border-width: 0.1vh;
+  }

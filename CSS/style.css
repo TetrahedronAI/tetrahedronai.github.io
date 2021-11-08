@@ -14,10 +14,6 @@ body {
   font-size: 3vh;
 }
 
-.info {
-  padding: 10vh;
-}
-
 .nav {
   display: flex;
   justify-content: center;
@@ -174,98 +170,67 @@ body {
   animation: typing-appear 3.5s;
 }
 
+.full-height{
+  align-items: center;
+  justify-content: center;
+}
+
+.padding-10 {
+  padding: 10vh;
+}
+
+.dark-bg {
+  background: rgb(41, 41, 41);
+  color: #fff;
+}
+
+.vert-center {
+  max-height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .under-construction {
   padding: 13rem;
   text-align: center;
 }
 
-.project-banner {
-  height: 100vh;
-  margin: 0px;
-
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-
-  justify-content: center;
-  align-items: center;
-}
-
-.project-banner#sand {
-  color: white;
-  background-color: #292929;
-}
-
-.project-info {
-  width: 40vw;
-  font-size: 2vw;
-}
-
-.project-info#easyneuron {
-  padding-left: 10vw;
-}
-.project-info#sand {
-  padding-right: 10vw;
-}
-
-.project-info#easyneuron {
-  text-align: right;
-}
-
-.project-info#sand {
-  text-align: left;
-}
-
-.project-logo {
-  width: 30vw;
-  height: fit-content;
-}
-
 .footer {
   color: white;
   text-align: center;
+  font-size: smaller;
 
   background-color: #292929;
 
   padding: 1vw;
 }
 
-.learn-more {
-  padding: 0.5vw;
-  padding-left: 2vw;
-  padding-right: 2vw;
-  margin: 2vw;
-  font-size: 2vw;
 
-  border-width: 0;
-  border-radius: 1vw;
+.footer-data {
+  display: flex;
+  flex-direction: row;
 
-  transition: 300ms;
+  justify-content: space-around;
+  align-items: top;
+
+  padding-top: 1vw;
 }
 
-.learn-more#easyneuron-button {
-  background-color: #292929;
-  color: white;
-}
-.learn-more#sand-button {
-  background-color: white;
-  color: black;
+.footer-data div {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
 }
 
-.learn-more#sand-button:hover {
-  background-color: transparent;
-  color: rgb(255, 209, 6);
-
-  border-color: rgb(255, 209, 6);
-  margin: 1.9vw;
-  border-width: 0.1vh;
+.footer-data div a {
+  text-decoration: none;
+  color: hsl(0, 0%, 95%);
 }
 
-.learn-more#easyneuron-button:hover {
-  background-color: transparent;
-  color: rgb(68, 0, 255);
-
-  border-color: rgb(68, 0, 255);
-  margin: 1.9vw;
-  border-width: 0.1vh;
+.footer-data div h4 {
+  padding: 0 0 1vw 0;
+  margin: 0;
 }
