@@ -17,7 +17,7 @@ if (Notification.permission !== "denied") {
             showNotification("Welcome to the community. We'll notify you of new research, projects and information whilst you are here!");
         }
         else if ((permission === "denied")) {
-            showNotification("You have denied notifications")  // ? I think it will make us seem too pushy if we tell them they have denied. Also, could we make it so that it does
+            showNotification("You have denied notifications")  // ? I think it will make us seem too pushy if we tell them they have denied. Also, could we make it so that it doesn't request every time, just the first time, save a cookie saying this or something.
         }
     });
 }

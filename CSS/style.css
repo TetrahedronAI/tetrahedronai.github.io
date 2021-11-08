@@ -170,13 +170,49 @@ body {
   animation: typing-appear 3.5s;
 }
 
+.landing-title-green {
+  color: transparent;
+  background: linear-gradient(90deg, rgb(139, 236, 73), rgb(2, 91, 31));
+
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  padding-left: 2.6rem;
+  padding-top: 12rem;
+
+  margin: 0.1rem;
+
+  font-weight: bold;
+  font-size: 5rem;
+}
+
+.landing-subtitle-green {
+  color: white;
+  margin: 0;
+  padding-left: 3rem;
+  color: transparent;
+  background: linear-gradient(90deg, rgb(139, 236, 73), rgb(2, 91, 31));
+
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  animation: typing-appear 3.5s;
+}
+
 .full-height{
+  max-height: 100vh;
+  min-height: 100vh;
+
   align-items: center;
   justify-content: center;
 }
 
 .padding-10 {
-  padding: 10vh;
+  padding: 10vw;
+}
+
+.padding-5 {
+  padding: 5vw;
 }
 
 .dark-bg {
