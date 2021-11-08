@@ -1,3 +1,3 @@
-for (let v = 0; v < 1; v++) {
+function landingPage() {
     window.location.href = "https://neuron-ai.github.io/";
 }
