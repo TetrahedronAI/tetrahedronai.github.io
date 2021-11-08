@@ -1,2 +1,3 @@
-# [Neuron AI Website](https://neuron-ai.github.io)
-Our website.
+# Neuron-AI.github.io
+The official website of the Neuron AI Organisation.
+
