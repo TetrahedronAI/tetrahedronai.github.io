@@ -10,8 +10,22 @@ body {
   overflow-x: hidden;
 }
 
+a {
+  text-decoration: none;
+  color: #292929;
+  font-weight: bold;
+}
+
 .paragraph {
   font-size: 3vh;
+}
+
+.small-paragraph {
+  font-size: 1.3rem;
+}
+
+.max-w-50 {
+  max-width: 50%;
 }
 
 .nav {
@@ -200,11 +214,14 @@ body {
 }
 
 .full-height{
-  max-height: 100vh;
   min-height: 100vh;
 
   align-items: center;
   justify-content: center;
+}
+
+.hz-layout {
+  display: flex;
 }
 
 .padding-10 {
@@ -215,8 +232,20 @@ body {
   padding: 5vw;
 }
 
+.padding-1 {
+  padding: 1vw;
+}
+
+.center-text {
+  text-align: center;
+}
+
 .dark-bg {
   background: rgb(41, 41, 41);
+  color: #fff;
+}
+
+.dark-bg * {
   color: #fff;
 }
 
@@ -227,6 +256,11 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.hz-center {
+  display: flex;
+  justify-content: center;
 }
 
 .under-construction {
