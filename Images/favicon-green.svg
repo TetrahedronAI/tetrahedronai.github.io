@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="777px"
+    height="777px" viewBox="-0.5 -0.5 777 777"
+    content="&lt;mxfile&gt;&lt;diagram id=&quot;2IC8gsRnBoz88FGHD6Mo&quot; name=&quot;Page-1&quot;&gt;5VhNc5swEP01PoZBHyA4NnbSHtqZzuTQ5khBAVqMGFmOcX99hSUBCpCQcerYrQ4e7Wolrd6+1cos0HJdf+RRlX1hCS0W0E3qBVotICQIyt9GsVcKD7tKkfI8USrQKe7y31Qrjdk2T+jGMhSMFSKvbGXMypLGwtJFnLOdbfbACnvXKkrpQHEXR8VQ+y1PRKa0ASSd/hPN08zsDPxQjawjY6xPssmihO16KnSzQEvOmFC9db2kRYOdwUXNu50YbR3jtBRzJiCkZjxGxVYfTjsm9ua0KWfbaoGuN4KzX+2BidQMd9MOPFIuaD0Wi+iHWbY7rqQJZWsq+F7a6VkGIM0QosVdBzcxuqwHdauMdIjTduUOBdnRQIyDgl/GRE6QZJPC9S7LBb2rorgZ2Um6S10m1nLtFZDdaFMpBj7kNU1aFJesYPywFLo9NDnykBeFpV+5AM/EvY3jU+CHAJ8EQgRexvA1vJo836uJBULouKEbIuK5hwYtogEfOhiCgHgDwnmYOAE6zByi5hHieG+AG7xA7k0l/WQMroAHHYgRRgSHh0asIFwBCB2PdMNhOIiGH7oODJpoKJtgGJMJk2PiA/1hOBJZG7RYsrKJS8zWeSxFV/YZFxlLWRkVnxmrdGR+UiH2uq5FW8HsuNE6F9+b6ZJRSrrXizX9Vd0X9lrYiIiL27xxXA2WyYem0nVOSU1vfJoKw5DLSPN9z6FGvDe+NkLn0kEyPk1TZcO2PKb2TS8PkFJtZ3K7wfZZQo3FUlt9ZbnctisooeMTQqBhlM04gh15MRA3QKr5NlWUb3rFJ2xpvZlHIPefTnANJwo8J3BhCyceXqahgzwM/LbhkTt1wuaoBJ5RmC4Y/3NA+L8oYQgAxwc+AOZCsa6TM+Z/cMICZvr3vf54+epKTL/AdCVlvMD8zaI3s3ihkeIFjyhes+M444/b5WcZ8Jo8ClzP12mG7ce6TDMcANLW7WGePS3saJhmEyZHRYecZZadQb6YzzX9fEGnyJfw3R7uc28++3F9AXcffq+77xI/0LzVC+P0bwgpdh8k1V+e7qsuuvkD&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs />
+    <defs>
+        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:rgb(139, 236, 73); stop-opacity:1" />
+            <stop offset="100%" style="stop-color:rgb(2, 91, 31); stop-opacity:1" />
+        </linearGradient>
+    </defs>
+    <g>
+        <ellipse cx="388" cy="388" rx="385" ry="385" fill="url(#grad1)" stroke="#ffffff" stroke-width="7"
+            pointer-events="none" />
+        <ellipse cx="387.99" cy="387.99" rx="345.1404687499999" ry="345.1404687499999" fill="url(#grad1)"
+            stroke="#ffffff" stroke-width="10" pointer-events="none" />
+        <path d="M 224.77 551.22 L 224.77 224.78" fill="none" stroke="#ffffff" stroke-width="25" stroke-miterlimit="10"
+            pointer-events="none" />
+        <ellipse cx="224.77" cy="580.9" rx="29.677083333333332" ry="29.677083333333332" fill="none"
+            stroke="#ffffff" stroke-width="25" pointer-events="none" />
+        <ellipse cx="224.77" cy="195.1" rx="29.677083333333332" ry="29.677083333333332" fill="none"
+            stroke="#ffffff" stroke-width="25" pointer-events="none" />
+        <ellipse cx="536.38" cy="580.9" rx="29.677083333333332" ry="29.677083333333332" fill="none"
+            stroke="#ffffff" stroke-width="25" pointer-events="none" />
+        <path d="M 404.23 410.23 L 515.4 559.92" fill="none" stroke="#ffffff" stroke-width="25" stroke-miterlimit="10"
+            pointer-events="none" />
+        <ellipse cx="388" cy="388" rx="29.677083333333332" ry="29.677083333333332" fill="none"
+            stroke="#ffffff" stroke-width="25" pointer-events="none" />
+        <path d="M 245.75 216.08 L 368.3 362.46" fill="none" stroke="#ffffff" stroke-width="25" stroke-miterlimit="10"
+            pointer-events="none" />
+        <path d="M 536.38 224.78 L 536.38 552.22" fill="none" stroke="#ffffff" stroke-width="25" stroke-miterlimit="10"
+            pointer-events="none" />
+        <ellipse cx="536.38" cy="195.1" rx="29.677083333333332" ry="29.677083333333332" fill="none"
+            stroke="#ffffff" stroke-width="25" pointer-events="none" />
+    </g>
+</svg>
