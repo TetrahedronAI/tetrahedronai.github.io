@@ -18,6 +18,5 @@ if (Notification.permission !== "denied") {
         }
         else if ((permission === "denied")) {
             showNotification("You have denied notifications")  // ? I think it will make us seem too pushy if we tell them they have denied. Also, could we make it so that it does
-        }
     });
 }
