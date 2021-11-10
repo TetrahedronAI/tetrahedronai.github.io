@@ -304,3 +304,10 @@ a {
   padding: 0 0 1vw 0;
   margin: 0;
 }
+
+/* Media Queries: Issue #1 */
+@media only screen and (max-width: 700px) {
+  .landing-title-red, .landing-title-green {
+    font-size: 4rem;
+  }
+}
