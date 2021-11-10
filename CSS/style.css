@@ -28,6 +28,7 @@ a {
   max-width: 50%;
 }
 
+/* Issue #1 : Responsive Navbar */
 .nav {
   background-color: #fff;
   box-shadow: 0 0 2rem rgba(51, 51, 51, 0.849);
@@ -235,7 +236,6 @@ a {
   padding: 1vw;
 }
 
-
 .footer-data {
   display: flex;
   flex-direction: row;
@@ -261,6 +261,24 @@ a {
   padding: 0 0 1vw 0;
   margin: 0;
 }
+
+/* Issue #1 : Responsiveness of Support Images */
+.support-img {
+  width: 200px;
+}
+
+@media only screen and (min-width: 600px) {
+  .support-img {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .support-img {
+    width: 120px;
+  }
+}
+
 
 /* MEDIA QUERIES:  */
 
