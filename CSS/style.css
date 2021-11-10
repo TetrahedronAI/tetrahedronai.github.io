@@ -35,8 +35,8 @@ a {
   position: fixed;
   left: 0;
   top: 0;
-  right: 0;
   width: 100%;
+  z-index: 100;
 }
 
 .nav a {
@@ -69,6 +69,7 @@ a {
   background: rgb(41, 41, 41);
   width: 100vw;
   min-height: 100vh;
+  position: relative;
 }
 
 .landing-page-small {
@@ -262,30 +263,15 @@ a {
   margin: 0;
 }
 
-/* Issue #1 : Responsiveness of Support Images */
-.support-img {
-  width: 200px;
-}
-
-@media only screen and (min-width: 600px) {
-  .support-img {
-    width: 200px;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .support-img {
-    width: 120px;
-  }
-}
-
-
 /* MEDIA QUERIES:  */
 
 /* Issue #1 : Titles */
 @media only screen and (max-width: 300px) {
   .landing-title-red, .landing-title-green {
     font-size: 4rem;
+  }
+  .support-img {
+    width: 90px;
   }
 }
 
@@ -309,5 +295,25 @@ a {
     float: none;
     display: block;
     text-align: left;
+  }
+}
+
+/* Issue #1 : Responsiveness of Support Images */
+
+@media only screen and (min-width: 600px) {
+  .support-img {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .support-img {
+    width: 120px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .support-img {
+    width: 95px;
   }
 }
