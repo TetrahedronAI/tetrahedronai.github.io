@@ -28,77 +28,35 @@ a {
   max-width: 50%;
 }
 
+/* Issue #7 : Responsive Navbar */
 .nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-
   background-color: #fff;
-
   box-shadow: 0 0 2rem rgba(51, 51, 51, 0.849);
-
   position: fixed;
   left: 0;
   top: 0;
-  right: 0;
+  width: 100%;
+  z-index: 100;
 }
 
-.nav-title {
-  background-color: white;
-  margin-right: 1rem;
-  position: absolute;
-  left: 0%;
-
-  height: 4.1rem;
-  line-height: 4.1rem;
-
-  width: 5.4rem;
-
-  padding-left: 3rem;
-  padding-right: 3rem;
-
-  font-weight: bold;
-  font-size: large;
-
-  text-decoration: none;
+.nav a {
+  float: left;
+  display: block;
   color: black;
-  align-self: auto;
-
-  box-shadow: none;
-  transition: box-shadow 200ms ease-in;
-}
-
-.nav-title:hover {
-  box-shadow: 1rem 0 1rem -1rem #ccc;
-}
-
-.nav-link {
-  width: 10rem;
-
-  height: 4.1rem;
-  line-height: 4.1rem;
-
-  font-size: normal;
-
   text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  white-space: nowrap;
-
-  box-shadow: none;
-
-  color: black;
-  background-color: inherit;
-
-  transition: background-color 200ms ease-in, color 200ms ease-in,
-    box-shadow 200ms ease-in, font-size 150ms ease-in;
+  font-size: 20px;
+  margin: 1.5rem;
 }
 
-.nav-link:hover {
-  color: #fff;
-  background-color: #292929;
-  box-shadow: 0.3rem 0.3rem 0.3rem -0.3rem #000 inset;
-  font-size: 1.2rem;
+.nav a:hover {
+  color: rgb(105, 102, 102);
+  font-weight: 600;
+}
+
+.nav .icon {
+  display: none;
 }
 
 .landing-page {
@@ -111,6 +69,7 @@ a {
   background: rgb(41, 41, 41);
   width: 100vw;
   min-height: 100vh;
+  position: relative;
 }
 
 .landing-page-small {
@@ -134,7 +93,7 @@ a {
   background-clip: text;
 
   padding-left: 2.6rem;
-  padding-top: 12rem;
+  padding-top: 8rem;
 
   margin: 0.1rem;
 
@@ -163,7 +122,7 @@ a {
   background-clip: text;
 
   padding-left: 2.6rem;
-  padding-top: 12rem;
+  padding-top: 8rem;
 
   margin: 0.1rem;
 
@@ -192,7 +151,7 @@ a {
   background-clip: text;
 
   padding-left: 2.6rem;
-  padding-top: 12rem;
+  padding-top: 8rem;
 
   margin: 0.1rem;
 
@@ -278,7 +237,6 @@ a {
   padding: 1vw;
 }
 
-
 .footer-data {
   display: flex;
   flex-direction: row;
@@ -303,4 +261,59 @@ a {
 .footer-data div h4 {
   padding: 0 0 1vw 0;
   margin: 0;
+}
+
+/* MEDIA QUERIES:  */
+
+/* Issue #7 : Titles */
+@media only screen and (max-width: 300px) {
+  .landing-title-red, .landing-title-green {
+    font-size: 4rem;
+  }
+  .support-img {
+    width: 90px;
+  }
+}
+
+/* Issue #7 : Responsive Navbar */
+@media screen and (max-width: 600px) {
+  .nav a:not(:first-child) {display: none;}
+  .nav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav.responsive {position: relative;}
+  .nav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/* Issue #7 : Responsiveness of Support Images */
+
+@media only screen and (min-width: 600px) {
+  .support-img {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .support-img {
+    width: 120px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .support-img {
+    width: 95px;
+  }
 }
