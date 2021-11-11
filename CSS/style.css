@@ -263,6 +263,11 @@ a {
   margin: 0;
 }
 
+.team-logos img {
+    border-radius: 100%;
+    width: 7vw;
+}
+
 /* MEDIA QUERIES:  */
 
 /* Issue #7 : Titles */
