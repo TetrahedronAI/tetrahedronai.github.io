@@ -4,7 +4,7 @@
             "name": "Launch Microsoft Edge and open the Edge DevTools",
             "request": "launch",
             "type": "vscode-edge-devtools.debug",
-            "url": "file:///C:/Users/toast/Desktop/Samuel%20Folder/Code%20Repositories/Neuron-AI.github.io/Pages/about.html" // Provide your project's url to finish configuring
+            "url": "file:///C:/Users/toast/Desktop/Samuel%20Folder/Code%20Repositories/Neuron-AI.github.io/Pages/about.html", "https://github.com/Neuron-AI/neuron-ai.github.io": true
         }
     ]
 }
